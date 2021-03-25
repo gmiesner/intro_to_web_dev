@@ -120,6 +120,13 @@ You should see something like this after reloading:
  
  If you click on ```check out my instagram```, your instagram account should open in a new window! If you don't want the link to open in a new window, delete the ``` target = "_blank" ``` part of the link element. 
  
+
+ - Underneath the ```<a>``` element, add the following element ```<ul></ul>```. You just created an unordered list, but there's nothing inside for you to see yet. Inside your ```<ul>``` element, add the following code ```<li> red </li> <li> orange </li> <li> yellow </li>```. 
+
+You should see a bulleted list appear with the colors listed! Now, replace those colors in the list items with three of your hobbies. Above the ```<ul>``` element, add an ```<h2>``` element that reads 'my hobbies'. 
+
+- Underneath the unordered list, let's make an ordered list by adding the following code : ```<ol> <li> your favorite song </li> <li> 2nd favorite song </li> <li> 3rd favorite song </li> </ol>```. Above that add an ```<h2>``` element that reads 'my favorite songs'. You should see a numbered list with your favorite songs! 
+ 
  ## Part Two : CSS 💃
  So now we have a webpage, but let's be honest, it's pretty ugly! So let's make it pretty, with CSS! 
  
@@ -155,4 +162,29 @@ Next! On to styling the link:
 - Type the following code beneath the ```p``` selector: ``` a{text-decoration: none;font-weight: 600;color: black;}``` This gets rid of the default line underneath the link, bolds the text, and changes the color from the default blue to black. 
 
 <img width="1290" alt="Screen Shot 2021-03-25 at 1 19 51 AM" src="https://user-images.githubusercontent.com/51331370/112427809-3433d900-8d08-11eb-88a4-9e5a24af73e5.png">
+
+Now, I want to make the Heading and the link text bigger, so I'll do that by adding the following code: 
+
+<img width="235" alt="Screen Shot 2021-03-25 at 2 27 12 AM" src="https://user-images.githubusercontent.com/51331370/112434457-9d6c1a00-8d11-11eb-823a-4450f8bda1c4.png">
+
+This code alters the font size to be number times the orginal font size (which is by default 16). 
+
+After refreshing, your page should look like this: 
+
+<img width="1354" alt="Screen Shot 2021-03-25 at 2 26 51 AM" src="https://user-images.githubusercontent.com/51331370/112434426-91805800-8d11-11eb-9ac9-634200a0110b.png">
+
+We need some color in this webpage! Let's try adding a background color! 
+
+- Go [here](https://htmlcolorcodes.com/) and find a color you think would be a good background.
+- Then copy the hex code (including the #)
+
+<img width="622" alt="Screen Shot 2021-03-25 at 2 29 49 AM" src="https://user-images.githubusercontent.com/51331370/112434797-fb006680-8d11-11eb-8f2f-d69e6d01f1ad.png">
+
+- in your CSS file, add the following line to your body selector ```background: your color;```
+
+After refreshing your page should look something like this: 
+
+<img width="1347" alt="Screen Shot 2021-03-25 at 2 31 05 AM" src="https://user-images.githubusercontent.com/51331370/112435004-28e5ab00-8d12-11eb-85f1-5f8e94023471.png">
+
+<img width="1140" alt="Screen Shot 2021-03-25 at 2 42 19 AM" src="https://user-images.githubusercontent.com/51331370/112436408-baa1e800-8d13-11eb-8614-31c1fede9b58.png">
 
